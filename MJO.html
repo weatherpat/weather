@@ -1,0 +1,367 @@
+﻿  <meta http-equiv="refresh" content="900" >  <!--頁面每15分鐘刷新1次-->
+  <meta http-equiv=Content-Type content="text/html;charset="utf-8">
+  <meta content="NCEP Web Team" name="GENERATOR">
+  <link href="http://www.cpc.ncep.noaa.gov/nwscwi/main.css" type="text/css" rel="STYLESHEET">
+  <script language="Javascript" type="text/javascript">
+   function show_tab(nam)
+   {
+    document.getElementById("INDEXCPC").style.display= "none";
+    document.getElementById("INDEXWH40").style.display= "none";
+    document.getElementById("CHISPATIAL").style.display= "none";
+    document.getElementById("IRLOOP").style.display= "none";
+    document.getElementById("OLRANOM").style.display= "none";
+    document.getElementById("OLRHOV").style.display= "none";
+    document.getElementById("850TOT").style.display= "none";
+    document.getElementById("850ANM").style.display= "none";
+    document.getElementById("850HOV").style.display= "none";
+    document.getElementById("200TOT").style.display= "none";
+    document.getElementById("200ANM").style.display= "none";
+    document.getElementById("200HOV").style.display= "none";
+    document.getElementById("500HGTNHLOOP").style.display= "none";
+    document.getElementById("500HGTSHLOOP").style.display= "none";
+    document.getElementById("200HGTLOOP").style.display= "none";
+    document.getElementById("500PTDHGT").style.display= "none";
+    document.getElementById("200PTDWND").style.display= "none";
+    document.getElementById("CHI200TOTHOV").style.display= "none";
+    document.getElementById("CHI850TOTHOV").style.display= "none";
+    document.getElementById("HCHOV").style.display= "none";
+    document.getElementById(nam).style.display = "block";
+    }
+  </script>
+  <script language="Javascript" type="text/javascript">
+   function show_tab2(nam)
+   {
+    document.getElementById("GFSPLUME").style.display= "none";
+    document.getElementById("GFSPHASE").style.display= "none";
+    document.getElementById("GFSOLR").style.display= "none";
+    document.getElementById("GFSTLON").style.display= "none";
+    document.getElementById("GFSVDAY8").style.display= "none";
+    document.getElementById("GFSVDAY15").style.display= "none";
+    document.getElementById("STATPHASE").style.display= "none";
+    document.getElementById("CAOLR").style.display= "none";
+    document.getElementById("CATLON").style.display= "none";
+    document.getElementById("CAVDAY8").style.display= "none";
+    document.getElementById("CAVDAY15").style.display= "none";
+    document.getElementById("EWP").style.display= "none";
+    document.getElementById("GFS").style.display= "none";
+    document.getElementById("CFS").style.display= "none";
+    document.getElementById(nam).style.display = "block";
+    }
+  </script>
+<tr>
+  <td> 
+    <div align="center">
+      <table style="border-color: black; border-style: solid; border-width: thin;">
+        <tbody>
+        <tr> 
+          <td align="center" colspan="8"> <font face="verdana,arial,serif" size="2"><strong>Note:</strong> 
+            Move cursor over product name to display. Click for larger size and 
+            info</font> </td>
+        </tr>
+        <tr> 
+          <td> 
+            <table border="1" cellpadding="0" cellspacing="0" width="540" align="center" name="Tabs">
+              <tbody> 
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" colspan="2" width="135"><font color="#FFFFFF">MJO 
+                  Indices</font><font color="#F0E68C"> </font></td>
+                <td class="nav" id="menuitem" align="center" colspan="6" width="405"><font color="#F0E68C">Satellite 
+                  / Outgoing Longwave Radiation (OLR)</font></td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_mjo_index/mjo_index.shtml" onmouseover="show_tab('INDEXCPC')" title="" class="homepagelinks"><font color="#FFFFFF">CPC</font></a> 
+                </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/whindex.shtml" onmouseover="show_tab('INDEXWH40')" title="" class="homepagelinks"><font color="#FFFFFF">WH</font></a> 
+                </td>
+                <td class="nav" id="menuitem" align="center" width="135" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/ir_anim_monthly.shtml" onmouseover="show_tab('CHISPATIAL')" title="" class="homepagelinks"><font color="#FFFFFF">Vel 
+                  Potential / IR</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/irtempanim.shtml" onmouseover="show_tab('IRLOOP')" title="" class="homepagelinks"><font color="#FFFFFF">Global 
+                  IR</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/olra_last30days-3plots.gif" onmouseover="show_tab('OLRANOM')" title="" class="homepagelinks"><font color="#FFFFFF">OLR 
+                  Map</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="135" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/olra_tloneq.shtml" onmouseover="show_tab('OLRHOV')" title="" class="homepagelinks"><font color="#FFFFFF">OLR 
+                  Time-Lon</font></a> </td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td colspan="8">&nbsp;</td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" colspan="8" width="540"><font color="#F0E68C">850-hPa 
+                  and 200-hPa Tropical Winds</font></td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/pentad850winds_total.shtml" onmouseover="show_tab('850TOT')" title="" class="homepagelinks"><font color="#FFFFFF">850 
+                  Total</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/pentad850winds.shtml" onmouseover="show_tab('850ANM')" title="" class="homepagelinks"><font color="#FFFFFF">850 
+                  Anom</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="135" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/850u_tlon.shtml" onmouseover="show_tab('850HOV')" title="" class="homepagelinks"><font color="#FFFFFF">850 
+                  Time-Lon</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/pentad200winds_total.shtml" onmouseover="show_tab('200TOT')" title="" class="homepagelinks"><font color="#FFFFFF">200 
+                  Total</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/pentad200winds.shtml" onmouseover="show_tab('200ANM')" title="" class="homepagelinks"><font color="#FFFFFF">200 
+                  Anom</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="135" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/200u_tlon.shtml" onmouseover="show_tab('200HOV')" title="" class="homepagelinks"><font color="#FFFFFF">200 
+                  Time-Lon</font></a> </td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td colspan="8">&nbsp;</td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" colspan="5" width="338"><font color="#F0E68C">500-hPa 
+                  and 200-hPa Heights and Wind</font></td>
+                <td class="nav" id="menuitem" align="center" colspan="2" width="135"><font color="#F0E68C">Velocity 
+                  Potential</font></td>
+                <td class="nav" id="menuitem" align="center" colspan="1" width="68"><font color="#F0E68C">Ocean</font></td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/z500_nh_anim.shtml" onmouseover="show_tab('500HGTNHLOOP')" title="" class="homepagelinks"><font color="#FFFFFF">NH 
+                  500</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/z500_sh_anim.shtml" onmouseover="show_tab('500HGTSHLOOP')" title="" class="homepagelinks"><font color="#FFFFFF">SH 
+                  500</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/z200anim.shtml" onmouseover="show_tab('200HGTLOOP')" title="" class="homepagelinks"><font color="#FFFFFF">Global 
+                  200</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/500hgt_5dintvl_global.gif" onmouseover="show_tab('500PTDHGT')" title="" class="homepagelinks"><font color="#FFFFFF">500 
+                  5-Day</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/200wind_5dintvl_global.gif" onmouseover="show_tab('200PTDWND')" title="" class="homepagelinks"><font color="#FFFFFF">200 
+                  5-Day</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/vpot_tlon.shtml" onmouseover="show_tab('CHI200TOTHOV')" title="" class="homepagelinks"><font color="#FFFFFF">200-hPa</font></a> 
+                </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/vpot_tlon_850.shtml" onmouseover="show_tab('CHI850TOTHOV')" title="" class="homepagelinks"><font color="#FFFFFF">850-hPa</font></a> 
+                </td>
+                <td class="nav" id="menuitem" align="center" width="68" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/intraseasonal/heat_tlon.shtml" onmouseover="show_tab('HCHOV')" title="" class="homepagelinks"><font color="#FFFFFF">Heat 
+                  Cont</font></a> </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td align="center"> 
+            <table width="540" cellpadding="0" cellspacing="0" align="center">
+              <tbody>
+              <tr>
+                <td width="540">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td align="center" width="540"> 
+                  <div id="INDEXCPC" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_mjo_index/tm_order_2.gif" width="291" alt="CPC MJO Index"> 
+                  </div>
+                  <div id="INDEXWH40" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/obs_phase40_small.gif" width="369" alt="CPC Version of the WH MJO Index"> 
+                  </div>
+                  <div id="CHISPATIAL" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/vpotgifs/am_ir_monthly_1.gif" width="540" alt="Velocity-Potential/IR temperatures"> 
+                  </div>
+                  <div id="IRLOOP" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/irtempanim.gif" width="540" alt="IR satellite animation"> 
+                  </div>
+                  <div id="500HGTNHLOOP" style="display: block;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/z500_nh_30d_anim.gif" width="540" alt="NH 500 hgt 30 day loop"> 
+                  </div>
+                  <div id="500HGTSHLOOP" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/z500_sh_30d_anim.gif" width="540" alt="SH 500 hgt 30 day loop"> 
+                  </div>
+                  <div id="200HGTLOOP" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/z200anim.gif" width="540" alt="Global 200 hgt 30 day loop"> 
+                  </div>
+                  <div id="OLRANOM" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/olra_last30days-3plots_2.gif" width="285" alt="Spatial OLR anomalies"> 
+                  </div>
+                  <div id="850TOT" style="display:none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/current_total_850wind_small.gif" width="540" alt="Total 850 wind"> 
+                  </div>
+                  <div id="850ANM" style="display:none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/current_anom_850wind_small.gif" width="540" alt="Anomalous 850 wind"> 
+                  </div>
+                  <div id="200TOT" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/current_total_200wind_small.gif" width="540" alt="Total 200 wind"> 
+                  </div>
+                  <div id="200ANM" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/current_anom_200wind_small.gif" width="540" alt="Anomalous 200 wind"> 
+                  </div>
+                  <div id="500PTDHGT" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/500hgt_5dintvl_global_2.gif" width="540" alt="Pentad Global 500 hgt map"> 
+                  </div>
+                  <div id="200PTDWND" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/200wind_5dintvl_global_2.gif" width="540" alt="Pentad Global 200 wind map"> 
+                  </div>
+                  <div id="OLRHOV" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/olr_hov_last180days_2.gif" width="315" alt="Time-longitude OLR anomalies"> 
+                  </div>
+                  <div id="CHI200TOTHOV" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/tlon_vpot_web_2.gif" width="319" alt="Time-Longitude 200 Velocity Potential "> 
+                  </div>
+                  <div id="CHI850TOTHOV" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/tlon_vpot_web_850_2.gif" width="319" alt="Time-Longitude 850 Velocity Potential"> 
+                  </div>
+                  <div id="850HOV" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/hov_u850_2.gif" width="311" alt="Time-Longitude 850 Zonal Wind"> 
+                  </div>
+                  <div id="200HOV" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/hov_u200_2.gif" width="311" alt="Time-Longitude 200 Zonal Wind"> 
+                  </div>
+                  <div id="HCHOV" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/intraseasonal/tlon_heat_2.gif" width="267" alt="Heat Content"> 
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+</tr>
+<tr> 
+  <td>
+    <div align="center"><a name="forecast"></a> </div>
+  </td>
+</tr>
+<div align="center">
+  <!-- <tr>
+  <td>
+  <font face="verdana,arial,serif" color="FF0000" size="2"><B> Due to upstream data issues, the GFS and Ensemble GFS forecast plots will be unavailable for a few more days. We are working to correct the problem and we regret the inconvenience this causes. </B></font>
+  </td>
+ </tr>
+-->
+</div>
+<tr> 
+  <td> 
+    <div align="center">
+      <table style="border-color: black; border-style: solid; border-width: thin;">
+        <tbody>
+        <tr> 
+          <td align="center" colspan="8"> <font face="verdana,arial,serif" size="2"><strong>Note:</strong> 
+            Move cursor over product name to display. Click for larger size and 
+            info</font> </td>
+        </tr>
+        <tr> 
+          <td> 
+            <table border="1" cellpadding="0" cellspacing="0" width="540" align="center" name="Tabs">
+              <tbody> 
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" colspan="8" width="540"><font color="#F0E68C">Dynamical 
+                  MJO Forecasts </font></td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/foregfs.shtml" onmouseover="show_tab2('GFSPLUME')" title="" class="homepagelinks"><font color="#FFFFFF">Ensemble 
+                  GFS</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/foroper.shtml" onmouseover="show_tab2('GFSPHASE')" title="" class="homepagelinks"><font color="#FFFFFF">Hires 
+                  GFS</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/foregfs.shtml" onmouseover="show_tab2('GFSOLR')" title="" class="homepagelinks"><font color="#FFFFFF">GEFS 
+                  OLR Map</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/foregfs.shtml" onmouseover="show_tab2('GFSTLON')" title="" class="homepagelinks"><font color="#FFFFFF">GEFS 
+                  Time-Lon</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/dynverif.shtml" onmouseover="show_tab2('GFSVDAY8')" title="" class="homepagelinks"><font color="#FFFFFF">1WK 
+                  Verif</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/dynverif.shtml" onmouseover="show_tab2('GFSVDAY15')" title="" class="homepagelinks"><font color="#FFFFFF">2WK 
+                  Verif</font></a> </td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td colspan="8">&nbsp;</td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" colspan="8" width="540"><font color="#F0E68C">Statistical 
+                  MJO Forecasts</font></td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" width="180" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/forca.shtml" onmouseover="show_tab2('STATPHASE')" title="" class="homepagelinks"><font color="#FFFFFF">CA 
+                  - LLR - AR Phase Diagram</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/forca.shtml" onmouseover="show_tab2('CAOLR')" title="" class="homepagelinks"><font color="#FFFFFF">CA 
+                  OLR Map</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/forca.shtml" onmouseover="show_tab2('CATLON')" title="" class="homepagelinks"><font color="#FFFFFF">CA 
+                  Time-Lon</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/statverif.shtml" onmouseover="show_tab2('CAVDAY8')" title="" class="homepagelinks"><font color="#FFFFFF">1WK 
+                  Verif</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="90" colspan="1"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/statverif.shtml" onmouseover="show_tab2('CAVDAY15')" title="" class="homepagelinks"><font color="#FFFFFF">2WK 
+                  Verif</font></a> </td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td colspan="8">&nbsp;</td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" colspan="8" width="540"><font color="#F0E68C">200-hPa 
+                  Velocity Potential Forecasts</font></td>
+              </tr>
+              <tr bgcolor="#0000FF"> 
+                <td class="nav" id="menuitem" align="center" width="180" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/chi/ewp.gif" onmouseover="show_tab2('EWP')" title="" class="homepagelinks"><font color="#FFFFFF">Empirical 
+                  Wave Propagation</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="180" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/chi/gfs.gif" onmouseover="show_tab2('GFS')" title="" class="homepagelinks"><font color="#FFFFFF">Global 
+                  Forecast System</font></a> </td>
+                <td class="nav" id="menuitem" align="center" width="180" colspan="2"> 
+                  <a href="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/chi/cfs.gif" onmouseover="show_tab2('CFS')" title="" class="homepagelinks"><font color="#FFFFFF">Climate 
+                  Forecast System</font></a> 
+                  <!--<a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/cfs.gif" OnMouseOver="show_tab2('CFS')" title="" class="homepagelinks">Climate Forecast System</a>-->
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td align="center"> 
+            <table width="540" cellpadding="0" cellspacing="0" align="center">
+              <tbody>
+              <tr>
+                <td width="540">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td align="center" width="540"> 
+                  <div id="GFSPLUME" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/ensplume_small.gif" width="369" alt="GFS MJO index ensemble plume"> 
+                  </div>
+                  <div id="GFSPHASE" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/combphase_noCFSsmall.gif" width="369" alt="MJO index GEFS and GFSOP forecast"> 
+                  </div>
+                  <div id="GFSOLR" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/spatial_olrmap_small.gif" width="400" alt="Spatial map of MJO OLR anomalies"> 
+                  </div>
+                  <div id="GFSTLON" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/tlon_olr_small.gif" width="354" alt="Time-Longitude of MJO OLR anomalies"> 
+                  </div>
+                  <div id="GFSVDAY8" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/operdyn_verif8D_small.gif" width="369" alt="7-Day Verification of MJO index from GFS"> 
+                  </div>
+                  <div id="GFSVDAY15" style="display:none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/operdyn_verif15D_small.gif" width="369" alt="15-Day Verification of MJO index from GFS"> 
+                  </div>
+                  <div id="STATPHASE" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/statphase_small.gif" width="369" alt="Statistical model MJO index forecasts"> 
+                  </div>
+                  <div id="CAOLR" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/spatial_olrmap_CA_small.gif" width="400" alt="Spatial map of MJO OLR anomalies from CA"> 
+                  </div>
+                  <div id="CATLON" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/tlon_olr_CA_small.gif" width="354" alt="Time-Longitude of MJO OLR anomalies from CA"> 
+                  </div>
+                  <div id="CAVDAY8" style="display:none;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/stat_verif8D_small.gif" width="369" alt="7-Day Verification of MJO index from CA"> 
+                  </div>
+                  <div id="CAVDAY15" style="display: block;"> <img src="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/stat_verif15D_small.gif" width="369" alt="15-Day Verification of MJO index from CA"> 
+                  </div>
+                  <div id="EWP" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/chi/ewp.gif" width="400" alt="EWP forecast of 200-hpa Velocity Potential"> 
+                  </div>
+                  <div id="GFS" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/chi/gfs.gif" width="400" alt="GFS forecast of 200-hpa Velocity Potential"> 
+                  </div>
+                  <div id="CFS" style="display: none;"> <img src="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/chi/cfs.gif" width="400" alt="CFS forecast of 200-hpa Velocity Potential"> 
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </td>
+</tr><br><center><b>madden-julian oscillation (mjo)</center></br>
