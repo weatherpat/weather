@@ -1,1 +1,16 @@
-eval(function(p,a,c,k,e,r){e=function(c){return c.toString(36)};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[2-9a-r]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2.3("<j http-equiv=\\\'X-UA-Compatible\\\' k=\\\'l=edge,chrome=1\\\'> ");2.3("<j name=\\\'viewport\\\' k=\\\'m=device-m, initial-scale=1.0\\\'>");2.3("<7 8=\\\'9\\\' e=\\\'f/4\\\' a=\\\'5/4/normalize.4\\\' />");2.3("<7 8=\\\'9\\\' e=\\\'f/4\\\' a=\\\'5/4/b.4\\\'>");2.3("<7 8=\\\'9\\\' a=\\\'5/c/d.4\\\'> ");2.3("<7 8=\\\'9\\\' a=\\\'5/c/b-n/b-n.4\\\'> ");2.3("<7 8=\\\'9\\\' a=\\\'5/4/site.4\\\'> ");2.3("<!-- Core o p -->");2.3("<6 g=\\\'5/c/d.h.i\\\'></6> ");2.3("<!-- UI o p -->");2.3("<6 g=\\\'5/c/d-q-b.h.i\\\'></6> ");2.3("<r e=\\\'f/4\\\'>");2.3("</r>");2.3("<!--[if l]>");2.3("  <6 g=\\\'5/c/d-q-b.h.i\\\'></6>");2.3("<![endif]-->");',[],28,'||document|writeln|css|swipe|script|link|rel|stylesheet|href|default|dist|photoswipe|type|text|src|min|js|meta|content|IE|width|skin|JS|file|ui|style'.split('|'),0,{}))
+document.writeln("<meta http-equiv=\'X-UA-Compatible\' content=\'IE=edge,chrome=1\'> ");
+document.writeln("<meta name=\'viewport\' content=\'width=device-width, initial-scale=1.0\'>");
+document.writeln("<link rel=\'stylesheet\' type=\'text/css\' href=\'swipe/css/normalize.css\' />");
+document.writeln("<link rel=\'stylesheet\' type=\'text/css\' href=\'swipe/css/default.css\'>");
+document.writeln("<link rel=\'stylesheet\' href=\'swipe/dist/photoswipe.css\'> ");
+document.writeln("<link rel=\'stylesheet\' href=\'swipe/dist/default-skin/default-skin.css\'> ");
+document.writeln("<link rel=\'stylesheet\' href=\'swipe/css/site.css\'> ");
+document.writeln("<!-- Core JS file -->");
+document.writeln("<script src=\'swipe/dist/photoswipe.min.js\'></script> ");
+document.writeln("<!-- UI JS file -->");
+document.writeln("<script src=\'swipe/dist/photoswipe-ui-default.min.js\'></script> ");
+document.writeln("<style type=\'text/css\'>");
+document.writeln("</style>");
+document.writeln("<!--[if IE]>");
+document.writeln("  <script src=\'swipe/dist/photoswipe-ui-default.min.js\'></script>");
+document.writeln("<![endif]-->");
