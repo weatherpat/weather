@@ -11,7 +11,7 @@ document.writeln("     </td>");
 document.writeln("     <td><div align=\'right\'>");
 document.writeln("	   <a href=\'https://weatherpat.github.io/weather/Record.txt\' target=\'_blank\'>Record.txt</a>");
 document.writeln("	   　　© <a href=\'https://zh.wikipedia.org/wiki/Category:氣象機構\' target=\'_blank\'>");
-document.writeln("	        All weather org");
+document.writeln("	        All weather org　");
 document.writeln("			 </a>");
 document.writeln("		 </div>");
 document.writeln("     </td>");
