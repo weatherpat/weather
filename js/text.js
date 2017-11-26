@@ -1,3 +1,3 @@
-document.writeln("　　陽光多明媚,陽光多燦爛...");
-document.writeln("</br>　　廣東:暖和很舒服吧?那就再冷你1下下吧");
+document.writeln("　　谁将平地万堆雪，剪刻作此连天花");
+document.writeln("</br>　　廣東:凍寒天气秋日衣,北風凄厉趕枯榮");
 document.writeln("</br>");   // 保留换行
