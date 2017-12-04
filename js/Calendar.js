@@ -107,5 +107,5 @@ function getCalendar(){
         if(sFtv.match(reg)!=null)festival+=' <font color="#ff0000">'+RegExp.$1+'</font>';
         return(festival);
     }
-    return specialDate();  //YYMMDD()+' '+weekday()+' '+lunarTime()+specialDate();
+    return cyclical(num)+' '+specialDate();  //YYMMDD()+' '+weekday()+' '+lunarTime()+specialDate();
 }
