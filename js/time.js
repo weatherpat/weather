@@ -1,4 +1,7 @@
 document.writeln("<script src=\'https://weatherpat.github.io/weather/js/Calendar.js\'></script>");
+document.writeln("<body onload=\'startTime()\'>");
+document.writeln("<div id=\'txt\'></div>");
+document.writeln("<script type=\'text/javascript\'>document.write(getCalendar())</script>");
 document.writeln("<script type=\'text/javascript\'>");
 document.writeln("function startTime()");
 document.writeln("{");
@@ -27,6 +30,3 @@ document.writeln("  {i=\'0\' + i}");
 document.writeln("  return i");
 document.writeln("}");
 document.writeln("</script>");
-document.writeln("<body onload=\'startTime()\'>");
-document.writeln("</br><div id=\'txt\'></div>");
-document.writeln("<script type=\'text/javascript\'>document.write(getCalendar())</script>");
