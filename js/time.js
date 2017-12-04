@@ -28,5 +28,5 @@ document.writeln("  return i");
 document.writeln("}");
 document.writeln("</script>");
 document.writeln("<body onload=\'startTime()\'>");
-document.writeln("<div id=\'txt\'></div>");
+document.writeln("</br><div id=\'txt\'></div>");
 document.writeln("<script type=\'text/javascript\'>document.write(getCalendar())</script>");
