@@ -87,7 +87,7 @@ function getCalendar(){
         return(s);
     }
     function lunarTime(){
-        return('<font color="#000000">'+cyclical(SY-4)+'年 '+cDay(LM,LD)+'</font>');
+        return('<font color="#000000">'+cDay(LM,LD)+'</font>'); //'+cyclical(SY-4)+'年 '+cDay(LM,LD)+'
     }
     function specialDate(){
         var sTermInfo=new Array(0,21208,42467,63836,85337,107014,128867,150921,173149,195551,218072,240693,263343,285989,308563,331033,353350,375494,397447,419210,440795,462224,483532,504758);
@@ -107,5 +107,5 @@ function getCalendar(){
         if(sFtv.match(reg)!=null)festival+=' <font color="#ff0000">'+RegExp.$1+'</font>';
         return(festival);
     }
-    return cyclical(num)+' '+specialDate();  //YYMMDD()+' '+weekday()+' '+lunarTime()+specialDate();
+    return lunarTime()+specialDate();  //YYMMDD()+' '+weekday()+' '+lunarTime()+specialDate();
 }
