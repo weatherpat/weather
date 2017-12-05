@@ -8,8 +8,7 @@ document.writeln("	   <path fill-rule=\'evenodd\' d=\'M8 0C3.58 0 0 3.58 0 8c0 3
 document.writeln("	   </svg>");
 document.writeln("	  </a>");
 document.writeln("     </td>");
-document.writeln("     <td>");
-document.writeln(" 　　　<div align=\'right\'>");
+document.writeln("     <td><div align=\'right\'>");
 document.writeln("	   　　<a href=\'https://weatherpat.github.io/weather/Record.txt\' target=\'_blank\'>Record.txt</a>　<a href=\'mob.html\' target=\'_parent\'>移動版</a>　<a href=\'pc.html\' target=\'_parent\'>電腦版</a>　</br>© <a href=\'https://zh.wikipedia.org/wiki/Category:氣象機構\' target=\'_blank\'>All weather org　</a>");
 document.writeln(" 　　　</div>");
 document.writeln("     </td>");
