@@ -9,7 +9,7 @@ document.writeln("	   </svg>");
 document.writeln("	  </a>");
 document.writeln("     </td>");
 document.writeln("     <td><div align=\'right\'>");
-document.writeln("	   <a href=\'https://weatherpat.github.io/weather/Record.txt\' target=\'_blank\'>Record.txt</a>　<a href=\'mob.html\' target=\'_blank\'>移動版</a>　<a href=\'pc.html\' target=\'_blank\'>電腦版</a>");
+document.writeln("	   <a href=\'https://weatherpat.github.io/weather/Record.txt\' target=\'_blank\'>Record.txt</a>　<a href=\'mob.html\' target=\'_parent\'>移動版</a>　<a href=\'pc.html\' target=\'_parent\'>電腦版</a>");
 document.writeln("	   　　© <a href=\'https://zh.wikipedia.org/wiki/Category:氣象機構\' target=\'_blank\'>");
 document.writeln("	        All weather org　");
 document.writeln("			 </a>");
