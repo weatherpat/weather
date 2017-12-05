@@ -1,9 +1,9 @@
 ﻿document.writeln("<script src=\'https://weatherpat.github.io/weather/js/photoswipe.js\'></script>");
 document.writeln("<div class=\'row\'>");
 document.writeln(" <div id=\'demo-test-gallery\' class=\'demo-gallery\'>");
-document.writeln("  <a href=\'https://metoc.ndbc.noaa.gov/ProductFeeds-portlet/img/jtwc/products/abpwsair.jpg\'  data-size=\'2100x1500\' data-med=\'https://metoc.ndbc.noaa.gov/ProductFeeds-portlet/img/jtwc/products/abpwsair.jpg\' data-med-size=\'800x571\' data-author=\'www.prh.onaa.gov/cphc/\'>");
-document.writeln("   <img src=\'https://metoc.ndbc.noaa.gov/ProductFeeds-portlet/img/jtwc/products/abpwsair.jpg\' alt=\'Product of JTWC/SATOPS\'>");
-document.writeln("    <figure>Product of JTWC/SATOPS...</figure></a>");
+document.writeln("  <a href=\'http://andrew.rsmas.miami.edu/bmcnoldy/tropics/atcf/latestGLOBE.png\' data-size=\'1050x419\' data-med=\'http://andrew.rsmas.miami.edu/bmcnoldy/tropics/atcf/latestNWP.png\' data-med-size=\'800x319\' data-author=\'andrew.rsmas.miami.edu\'>");
+document.writeln("   <img src=\'http://andrew.rsmas.miami.edu/bmcnoldy/products.png\' alt=\'聯合臺風警報中心_全球擾亂\'>");
+document.writeln("    <figure>全球擾亂(NHC and JTWC)...</figure></a>");
 document.writeln("  <a href=\'http://www.jmqx.gov.cn/upload/WeatherFiles/SettleImage_SZ_7.PNG\' data-size=\'1600x1196\' data-med=\'http://www.jmqx.gov.cn/upload/WeatherFiles/SettleImage_SZ_7.PNG\' data-med-size=\'800x598\'  data-author=\'www.jmqx.gov.cn\'>");
 document.writeln("   <img src=\'http://www.jmqx.gov.cn/upload/WeatherFiles/SettleImage_SZ_7.PNG\' alt=\'每小時衛星紅外雲圖\'>");
 document.writeln("    <figure>衛星紅外雲圖...</figure></a>");
