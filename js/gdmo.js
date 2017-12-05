@@ -1,6 +1,1 @@
-document.writeln("<div id=\'gdmo_7day\' height=\'400px\' width=\'800px\'>");
-document.writeln("  <center>");
-document.writeln("   <iframe style=\'margin-top:-80px;width:800px;display:block;\' src=\'http://www.gdmo.cn/weather-gdmo/gdWeather/gd-weather!gdWeather.action#toplink\' id=\'index_content\' frameborder=\'0\' scrolling=\'no\' height=\'650\' style=\'width:800\'; border: none; float: right; min-height: 400px;\' name=\'content\'>");
-document.writeln("   </iframe>");
-document.writeln("  </center>");
-document.writeln("</div>");
+﻿eval(function(p,a,c,k,e,r){e=function(c){return c.toString(36)};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[1-9a-c]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('document.writeln("<3 4=\\\'gdmo_7day\\\' 1=\\\'5\\\' 2=\\\'6\\\'><7><8 9=\\\'margin-top:-80px;2:6;display:block;\\\' src=\\\'http://www.a.cn/b-a/c/gd-b!c.action#toplink\\\' 4=\\\'index_content\\\' frameborder=\\\'0\\\' scrolling=\\\'no\\\' 1=\\\'650\\\' 9=\\\'2:800\\\'; border: none; float: right; min-1: 5;\\\' name=\\\'content\\\'></7></8></3>");',[],13,'|height|width|div|id|400px|800px|center|iframe|style|gdmo|weather|gdWeather'.split('|'),0,{}))
