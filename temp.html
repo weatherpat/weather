@@ -1,0 +1,63 @@
+<meta charset="UTF-8" http-equiv="refresh" content="900"><!--頁面每15分鐘刷新1次-->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<div id=demo class=demo style="overflow: hidden; height: 14px">
+<div id=demo1><ul style="font:'宋体'; font-size:14px; line-height:14px;">
+<li><a href="http://www.cpc.noaa.gov/products/analysis_monitoring/enso_advisory/figure01.gif">拉尼娜终究还是要来...</a>
+<li><a href="#">往上滚动停顿代码</a>
+<li><a href="#">往上滚动停顿代码</a>
+<li><a href="#">往上滚动停顿代码</a>
+</ul></div><div id=demo2></div></div>
+
+<script>
+<!--
+var speed = 20;//滚动速度
+var rows = 14;//每行高度
+var stim = 100; //停留时间倍数 * speed
+var stop = 0; //初始化值
+demo2.innerHTML = demo1.innerHTML
+function Marquee(){
+    if(demo.scrollTop%rows==0 && stop<=stim){
+      stop++;
+      return;
+    }
+    stop = 0;
+    if(demo2.offsetTop-demo.scrollTop<=0)
+      demo.scrollTop-=demo1.offsetHeight
+    else{
+      demo.scrollTop++
+    }
+}
+var MyMar    = setInterval(Marquee,speed)
+demo.onmouseover = function() {clearInterval(MyMar)}
+demo.onmouseout = function() {MyMar=setInterval(Marquee,speed)}
+-->
+</script>
+
+
+</br><script src="https://weatherpat.github.io/weather/js/tab.js"></script>
+<div class="tab" id="tab">
+<div class="menu">
+<ul>
+<li id="one1" onclick="setTab('one',1)">圖集</li>
+<li id="one2" onclick="setTab('one',2)">鏈接</li>
+<li id="one3" onclick="setTab('one',3)">颱風路徑</li>
+</ul>
+</div>
+<div class="menudiv">
+<div id="con_one_1" style="display:block;">
+ <script src="https://weatherpat.github.io/weather/js/time.js"></script><!--time--></br>
+ <script src="https://weatherpat.github.io/weather/js/swipephoto_mob.js"></script><!--photo-->
+</div>
+<div id="con_one_2" style="display:none;">
+ <script src="https://weatherpat.github.io/weather/js/text.js"></script><!--text-->
+ <script src="https://weatherpat.github.io/weather/js/url.js"></script><!--url-->
+</div>
+<div id="con_one_3" style="display:none;">
+ <script src="https://weatherpat.github.io/weather/js/typhoon.nmc.mob.js"></script><!--typhoon.nmc-->
+</div>
+  
+</div>
+</div>
+<div style="text-align:center;clear:both;"></div>
+</br><script src="https://weatherpat.github.io/weather/js/footer.js"></script><!--footer-->
