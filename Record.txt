@@ -1,8 +1,7 @@
-scrollBox_content.js記錄(頁面呈現只留最近5條) [部分連接隨時間推移,或無法查詢當時內容]
-20171209 西伯利亚“恶魔”来了. https://www.tropicaltidbits.com/analysis/models/?model=ecmwf&region=fe&pkg=T850a
-20171207 “大雪”這天,全國深度“貧雪”. http://mp.weixin.qq.com/s/r7ecuHt9PT2Gms42DH8Aqw
-20171205 拉尼娜终究还是要来的. http://www.cpc.noaa.gov/products/analysis_monitoring/enso_advisory/figure01.gif
-20171201 兩大數值畫餅,牡丹江童话成真 http://www.cma.gov.cn/2011xzt/2017zt/2017_24st/daxue
+感謝開發插件的各位前輩們(不分先後,源碼地址):
+https://github.com/dimsemenov/photoswipe
+https://github.com/scaron/prettyphoto
+https://github.com/jquery/jquery
 
 ======================================================================================================================================
 text.js記錄(頁面呈現只留最近1條) [閒來無聊,編寫的]
@@ -17,10 +16,11 @@ text.js記錄(頁面呈現只留最近1條) [閒來無聊,編寫的]
 20171120:'不以下雪为目地的冷空气都是耍流氓'
 
 ======================================================================================================================================
-感謝開發插件的各位前輩們(不分先後,源碼地址):
-https://github.com/dimsemenov/photoswipe
-https://github.com/scaron/prettyphoto
-https://github.com/jquery/jquery
+scrollBox_content.js記錄(頁面呈現只留最近5條) [部分連接隨時間推移,或無法查詢當時內容]
+20171209 西伯利亚“恶魔”来了. https://www.tropicaltidbits.com/analysis/models/?model=ecmwf&region=fe&pkg=T850a
+20171207 “大雪”這天,全國深度“貧雪”. http://mp.weixin.qq.com/s/r7ecuHt9PT2Gms42DH8Aqw
+20171205 拉尼娜终究还是要来的. http://www.cpc.noaa.gov/products/analysis_monitoring/enso_advisory/figure01.gif
+20171201 兩大數值畫餅,牡丹江童话成真 http://www.cma.gov.cn/2011xzt/2017zt/2017_24st/daxue
   
 ======================================================================================================================================
 歷史:(編輯weather記錄.)
