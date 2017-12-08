@@ -1,12 +1,10 @@
 <meta charset="UTF-8" http-equiv="refresh" content="900"><!--頁面每15分鐘刷新1次-->
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<!--TOPJiangmenWeather-->
-<div style="width: 475px;margin:0 auto;">
-  <iframe style="overflow:hidden;border:none" allowtransparency="true" width="475" height="205" src="https://zh.weather-forecast.com/locations/Jiangmen/forecasts/latest/threedayfree" scrolling="no" frameborder="0" marginwidth="0" marginheight="0">
-  </iframe>
+<!--JiangmenWeather-->
+<script src="https://weatherpat.github.io/weather/js/JiangmenWeather.js"></script>
 </div>
-<!--TOPscrollBox-->
-<script src="https://weatherpat.github.io/weather/js/top_scrollBox.js"></script>
+<!--scrollBox-->
+<script src="https://weatherpat.github.io/weather/js/scrollBox_content.js"></script>
 <script src="https://weatherpat.github.io/weather/js/scrollBox.js"></script> 
 <!--tabBox-->
 <script src="https://weatherpat.github.io/weather/js/tab.js"></script>
@@ -15,16 +13,17 @@
 <ul>
 <li id="one1" onclick="setTab('one',1)">圖集</li>
 <li id="one2" onclick="setTab('one',2)">鏈接</li>
-<li id="one4" onclick="setTab('one',3)">臺風路徑</li>
+<li id="one3" onclick="setTab('one',3)">臺風路徑</li>
 </ul>
 </div>
 <div class="menudiv">
 <div id="con_one_1" style="display:block;">
-<script src="https://weatherpat.github.io/weather/js/time.js"></script><!--time-->
+<script src="https://weatherpat.github.io/weather/js/text.js"></script><!--text-->
 <script src="https://weatherpat.github.io/weather/js/swipephoto_pc.js"></script><!--photo-->
 </div>
 <div id="con_one_2" style="display:none;">
 <script src="https://weatherpat.github.io/weather/js/text.js"></script><!--text-->
+<script src="https://weatherpat.github.io/weather/js/time.js"></script><!--time-->
 <script src="https://weatherpat.github.io/weather/js/url.js"></script><!--url-->
 </div>
 <div id="con_one_3" style="display:none;">
@@ -32,4 +31,4 @@
 </div>
 </div></div><div style="text-align:center;clear:both;"></div>
 <!--footer-->
-</br><script src="https://weatherpat.github.io/weather/js/footer.js"></script>
+</br><script src="https://weatherpat.github.io/weather/js/footer.js"></script><!--footer-->
