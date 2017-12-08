@@ -1,4 +1,4 @@
-﻿document.writeln("</br>");
+document.writeln("</br>");
 document.writeln("<p id=\'time1\' style=\'color: blueviolet;\'></p>");
 document.writeln("<script>");
 document.writeln("function getCurDate()");
@@ -61,3 +61,4 @@ document.writeln("writeday();Draw()");
 document.writeln("</script>");
 document.writeln("<script src=\'https://weatherpat.github.io/weather/js/Calendar.js\'></script>");
 document.writeln("　<script type=\'text/javascript\'>document.write(getCalendar())</script>");
+document.writeln("</br>");
