@@ -1,5 +1,5 @@
 document.writeln("</br>");
-document.writeln("<div id=\'scrollBox\' style=\'text-align:center\'><ul id=\'con1\'></br>");
+document.writeln("<div id=\'scrollBox\'><ul id=\'con1\'></br>");
 document.writeln("<li><a href=\'https://www.tropicaltidbits.com/analysis/models/?model=ecmwf&region=fe&pkg=T850a\' target=\'_blank\'>20171209 西伯利亚“恶魔”来了...</a>");
 document.writeln("<li><a href=\'http://mp.weixin.qq.com/s/r7ecuHt9PT2Gms42DH8Aqw\' target=\'_blank\'>20171207 “大雪”這天，全國深度“貧雪”.</a>");
 document.writeln("<li><a href=\'http://www.cpc.noaa.gov/products/analysis_monitoring/enso_advisory/figure01.gif\' target=\'_blank\'>20171205 拉尼娜终究还是要来了...</a>");
