@@ -4,8 +4,9 @@ https://github.com/scaron/prettyphoto
 https://github.com/jquery/jquery
 
 ======================================================================================================================================
-scrollBox_content.js記錄(頁面呈現只留最近5條) [部分連接隨時間推移,或無法查詢當時內容]
-20171213 我們的口號:奶死1個是1個. http://imgsrc.baidu.com/forum/pic/item/d1d4b9014a90f60397d815c23212b31bb151eda6.jpg
+scrollBox_content.js記錄(頁面呈現只留留部分) [部分連接隨時間推移,或無法查詢當時內容]
+20171213 雙冷颱風齊聚會,棉襖還沒買,怕. http://mmbiz.qpic.cn/mmbiz_gif/IQU5oQYdjCsMIPcdJb5IGcAfbmibQLMNkX1xQp6kp16IpHTWcmsWy4ISckWJ9JRW1ozqESmjIbgiawqteKvicgqcg/0?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1
+20171212 我們的口號:奶死1個是1個. http://imgsrc.baidu.com/forum/pic/item/d1d4b9014a90f60397d815c23212b31bb151eda6.jpg
 20171209 西伯利亚“恶魔”来了. https://www.tropicaltidbits.com/analysis/models/?model=ecmwf&region=fe&pkg=T850a
 20171207 “大雪”這天,全國深度“貧雪”. http://www.cma.gov.cn/2011xzt/2017zt/2017_24st/daxue
 20171205 拉尼娜终究还是要来的. http://www.cpc.noaa.gov/products/analysis_monitoring/enso_advisory/figure01.gif
@@ -13,7 +14,7 @@ scrollBox_content.js記錄(頁面呈現只留最近5條) [部分連接隨時間�
 
 ======================================================================================================================================
 text.js記錄(頁面呈現只留最近1條) [閒來無聊,編寫的]
-20171212:2017最後的絕望＂?＂;'我們'的口號'奶死1個是1個'
+20171213:雙冷+颱風聚會;'我們要的口號:'奶死1個是1個'
 20171209:頭上“雞窩”活潑亂跳,底部“雞雞”要受涼了... 
 20171207:“大雪”氣節，全國“貧雪”;拉呢娜襲擊到來,小伙伴們開啟火墙防禦吧.
 20171130:南嶺以北一片藍,南嶺以南一片紅;五嶺齊集四季天...
