@@ -1,6 +1,7 @@
 document.writeln("</br>");
 document.writeln("<div id=\'scrollBox\'><ul id=\'con1\'></br>");
-document.writeln("<li><a href=\'https://commons.wikimedia.org/wiki/File:Guar%C3%A1_2017-12-09_1532Z.jpg\' target=\'_blank\'>20171222 南西的'Guará',你還好嗎...</a>");
+document.writeln("<li><a href=\'http://mmbiz.qpic.cn/mmbiz_gif/IQU5oQYdjCsMIPcdJb5IGcAfbmibQLMNkX1xQp6kp16IpHTWcmsWy4ISckWJ9JRW1ozqESmjIbgiawqteKvicgqcg/0?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1\' target=\'_blank\'>20171213 雙冷颱風齊聚會,棉襖還沒買,怕.</a>");
+document.writeln("<li><a href=\'https://commons.wikimedia.org/wiki/File:Guar%C3%A1_2017-12-09_1532Z.jpg\' target=\'_blank\'>20171212 我們的口號:奶死1個是1個.</a>");
 document.writeln("<li><a href=\'http://imgsrc.baidu.com/forum/pic/item/d1d4b9014a90f60397d815c23212b31bb151eda6.jpg\' target=\'_blank\'>2017120 奶死1個是1個.</a>");
 document.writeln("<li><a href=\'https://www.tropicaltidbits.com/analysis/models/?model=ecmwf&region=fe&pkg=T850a\' target=\'_blank\'>20171209 西伯利亚“恶魔”来了.</a>");
 document.writeln("<li><a href=\'http://www.cma.gov.cn/2011xzt/2017zt/2017_24st/daxue/\' target=\'_blank\'>20171207 “大雪”這天,全國深度“貧雪”.</a>");
