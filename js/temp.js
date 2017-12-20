@@ -1,0 +1,3 @@
+document.writeln("<table width=\'440\' border=\'0\' cellspacing=\'0\' cellpadding=\'0\'><tr><td><div id=\'qxyj\' height=\'100px\' width=\'210px\'><iframe style=\'margin-top:-80px;width:210px;display:block;\' src=\'http://www.cma.gov.cn/2015qxyj.html\' id=\'index_content\' frameborder=\'0\' scrolling=\'no\' height=\'100\' style=\'width:210\'; border: none; float: right; min-height: 100px;\' name=\'content\'></iframe></div></td><td><iframe width=\'245\' height=\'42\' frameborder=\'0\' scrolling=\'no\' allowtransparency=\'true\' style=\'background-color=transparent;\' ");
+document.writeln("");
+document.writeln("src=\'http://m.weather.com.cn/m/cmapn/weather.htm\'></iframe></td></tr></table>");
