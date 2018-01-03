@@ -1,2 +1,2 @@
-document.writeln("</br>　擾亂不斷,YY不止;機構啊,別玩了...");
+document.writeln("</br>　'Bolaven'跨年擾.新世紀最早臺.妳會成為歷史的.");
 document.writeln("</br></br>"); //保留換行
