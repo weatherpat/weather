@@ -1,2 +1,2 @@
-document.writeln("</br>　'Bolaven'跨年擾.新世紀最早臺.妳會成為歷史的.");
+document.writeln("</br>　物理+魔法攻擊;我窮沒錢買衣服啊...");
 document.writeln("</br></br>"); //保留換行
