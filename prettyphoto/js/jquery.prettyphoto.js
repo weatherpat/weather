@@ -90,7 +90,7 @@
 			iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
 			inline_markup: '<div class="pp_inline">{content}</div>',
 			custom_markup: '',
-			social_tools: '<div class="jmqx"><a href="http://www.jmqx.gov.cn" target="_blank"></a></div>' /* html or false to disable */
+			social_tools: '<div class="jmqx"><a href="http://www.jmqx.gov.cn" target="_blank">www.jmqx.gov.cn</a></div>' /* html or false to disable */
 		}, pp_settings);
 		
 		// Global variables accessible only by prettyPhoto
