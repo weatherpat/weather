@@ -1,2 +1,2 @@
-document.writeln("</br>　妳在南半球的夏天裏汗流浹背，我在北半球的冬天裏凍成殘廢.");
+document.writeln("</br>　大家.下週都乖乖宅家吧,出門會爽死的...");
 document.writeln("</br></br>"); //保留換行
