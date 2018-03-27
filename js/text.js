@@ -1,2 +1,2 @@
-document.writeln("</br>　入夏了入夏了,其实广东也就冬夏2季;唉..");
+document.writeln("</br>　壹切不以下雪為目的的冷空氣都是耍流氓.");
 document.writeln("</br></br>"); //保留換行
