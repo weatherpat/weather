@@ -53,7 +53,7 @@ document.writeln("</script>");
 document.writeln("");
 
 document.writeln("<p id=\'time3\'>");
-document.writeln("<script language=\'Javascript\' src=\'http://www.beijing-time.org/time15.asp\'></script>");
+document.writeln("<script language=\'Javascript\' src=\'http://time.beijing-time.org/time.asp\'></script>");
 document.writeln("<script language=\'Javascript\' src=\'https://weatherpat.github.io/weather/js/setcalendar.js\'></script>");
 document.writeln("中國北京時間:<font id=y></font>年<font id=m></font>月<font id=n></font>日　星期<font id=w></font>　農曆:<font id=nl></font>　<font id=hrs></font>:<font id=min></font>:<font id=sec></font>");
 document.writeln("<script>");
