@@ -1,2 +1,2 @@
-document.writeln("</br>　哎喲餵西太突然那麼多,湊合打麻將啊???");
+document.writeln("</br>　雨走風來,天晴的日子能有多長...");
 document.writeln("</br></br>"); //保留換行
