@@ -1,2 +1,2 @@
-document.writeln("</br> 物理魔法大公雞...");
+document.writeln("</br> 明媚燦爛睡覺好時光");
 document.writeln("</br></br>"); //保留換行
