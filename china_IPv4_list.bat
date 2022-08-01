@@ -33,8 +33,8 @@ del /s /q list.txt
 del /s /q IPv4.txt
 :删除临时创建文件
 
-%  剪贴去指定地方(有需求可以玩) %
-%  net use \\172.0.0.1 "密码" /user:"账号" %
-%  xcopy china_IPv4_list.rsc \\127.0.0.1\china_ipv4_list /D /E /Y /H /K %
-%  net use \\172.0.0.1 /delete %
-%  del /s /q china_IPv4_list.rsc %
+net use \\172.0.0.1 "密码" /user:"账号"
+xcopy china_IPv4_list.rsc \\127.0.0.1\china_ipv4_list /D /E /Y /H /K
+net use \\172.0.0.1 /delete
+del /s /q china_IPv4_list.rsc
+:剪贴去指定地方
