@@ -1,40 +1,40 @@
 @pushd "%~dp0" >nul 2>&1
-:ÉèÖÃÔÚÍ¬ÎÄ¼ş¼ĞÏÂ´´½¨
+:è®¾ç½®åœ¨åŒæ–‡ä»¶å¤¹ä¸‹åˆ›å»º
 
-title ÏÂÔØÖĞ¹úIPv4¿â
-:ÉèÖÃ´°¿Ú±êÌâ
+title ä¸‹è½½ä¸­å›½IPv4åº“
+:è®¾ç½®çª—å£æ ‡é¢˜
 
 mode con cols=90 lines=40&color 0a
-:¶¨Òå´°¿Ú´óĞ¡Óë×ÖÌåÑÕÉ«
+:å®šä¹‰çª—å£å¤§å°ä¸å­—ä½“é¢œè‰²
 
 bitsadmin /transfer down http://aliyun.chenby.cn/ipv4.txt %cd%\IPv4.txt
-:ÏÂÔØIP¿â(¿É×ÔĞĞ¸ü»»¿âµØÖ·)
+:ä¸‹è½½IPåº“(å¯è‡ªè¡Œæ›´æ¢åº“åœ°å€)
 
 attrib -h -s -r -a %cd%
-:¸ü¸ÄÎÄ¼şËùÔÚÂ·¾¶ÊôĞÔ
+:æ›´æ”¹æ–‡ä»¶æ‰€åœ¨è·¯å¾„å±æ€§
 
 SET "TheStart=add address="
-:Ã¿ĞĞÌí¼ÓÇ°×ºÄÚÈİ
+:æ¯è¡Œæ·»åŠ å‰ç¼€å†…å®¹
 
 SET "TheEnd= list=china_list"
-:Ã¿ĞĞÌí¼Óºó×ºÄÚÈİ
+:æ¯è¡Œæ·»åŠ åç¼€å†…å®¹
 
 FOR /f "tokens=*" %%i IN (IPv4.txt) DO ( >>list.txt ECHO %TheStart%%%i%TheEnd% )
-:Éú³ÉÌí¼ÓÇ°ºó×ºÄÚÈİµÄÎÄ¼ş %
+:ç”Ÿæˆæ·»åŠ å‰åç¼€å†…å®¹çš„æ–‡ä»¶ %
 
 echo /ip firewall address-list>first.txt
-:´´½¨µ¼Èë±íÊ×ĞĞ(ÓÃÓÚ¿ÉÖ±½Óµ¼ÈëÊ¹ÓÃ) 
+:åˆ›å»ºå¯¼å…¥è¡¨é¦–è¡Œ(ç”¨äºå¯ç›´æ¥å¯¼å…¥ä½¿ç”¨) 
 
 copy/b first.txt+list.txt china_IPv4_list.rsc
-:ºÏ²¢Êä³ö¿ÉÒÔµ¼ÈëÎÄ¼ş
+:åˆå¹¶è¾“å‡ºå¯ä»¥å¯¼å…¥æ–‡ä»¶
 
 del /s /q first.txt
 del /s /q list.txt
 del /s /q IPv4.txt
-:É¾³ıÁÙÊ±´´½¨ÎÄ¼ş
+:åˆ é™¤ä¸´æ—¶åˆ›å»ºæ–‡ä»¶
 
-%  ¼ôÌùÈ¥Ö¸¶¨µØ·½(ÓĞĞèÇó¿ÉÒÔÍæ) %
-%  net use \\172.0.0.1 "ÃÜÂë" /user:"ÕËºÅ" %
+%  å‰ªè´´å»æŒ‡å®šåœ°æ–¹(æœ‰éœ€æ±‚å¯ä»¥ç©) %
+%  net use \\172.0.0.1 "å¯†ç " /user:"è´¦å·" %
 %  xcopy china_IPv4_list.rsc \\127.0.0.1\china_ipv4_list /D /E /Y /H /K %
 %  net use \\172.0.0.1 /delete %
 %  del /s /q china_IPv4_list.rsc %
