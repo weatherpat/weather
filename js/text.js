@@ -1,2 +1,2 @@
-document.writeln("請使用電腦瀏覽器打開,否則只能進入本頁面...");
+document.writeln("大家都生命是空調給的...");
 document.writeln("</br>"); //保留換行
